@@ -1,0 +1,32 @@
+{
+  "name": "prom-grafana",
+  "version": "1.0.0",
+  "description": "try to configure metrics infrastructure",
+  "scripts": {
+    "start": "node --inspect=0.0.0.0:9229 -r ts-node/register src/index.ts"
+  },
+  "keywords": ["prometheus", "grafana", "docker-compose"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturgan/prom-grafana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muturgan/prom-grafana/issues"
+  },
+  "homepage": "https://github.com/muturgan/prom-grafana#readme",
+  "author": {
+    "name": "Andrey Sakharov",
+    "email": "caxap_8787@mail.ru"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^2.11.0",
+    "prom-client": "^11.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.24",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"strict": false,
+		"target": "es2018",
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": true,
+		"noImplicitAny": false,
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"resolveJsonModule": true,
+		"allowJs": true,
+		"lib": [
+			"esnext",
+			"dom",
+			"es6"
+		]
+	},
+	"include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.test.ts"
+    ]
+}
